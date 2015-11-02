@@ -1,0 +1,7 @@
+applications:
+- name: reservation
+  memory: 512m
+  instances: 1
+  host: reservation
+  domain: cfapps.io
+  path: target/ms-reservation-0.0.1-SNAPSHOT.jar

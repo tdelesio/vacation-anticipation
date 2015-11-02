@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>build-hotel</artifactId>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.va</groupId>
+		<artifactId>build</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<modules>
+		<module>../support-hotel</module>
+		<module>../crud-hotel</module>
+		<module>../crud-roomtype</module>
+		<module>../ms-hotel-findaroom</module>
+	</modules>
+
+	
+
+
+</project>

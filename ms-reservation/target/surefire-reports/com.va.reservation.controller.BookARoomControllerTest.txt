@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.va.reservation.controller.BookARoomControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.128 sec <<< FAILURE! - in com.va.reservation.controller.BookARoomControllerTest
+bookReservation_SunnyDay(com.va.reservation.controller.BookARoomControllerTest)  Time elapsed: 6.736 sec  <<< ERROR!
+org.mockito.exceptions.misusing.NotAMockException: Argument should be a mock, but is: class com.sun.proxy.$Proxy64
+	at com.va.reservation.controller.BookARoomControllerTest.setUp(BookARoomControllerTest.java:37)
+

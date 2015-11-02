@@ -1,0 +1,7 @@
+applications:
+- name: hotel
+  memory: 512m
+  instances: 1
+  host: tim-hotel
+  domain: cfapps.io
+  path: target/crud-hotel-0.0.1-SNAPSHOT.jar
